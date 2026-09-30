@@ -1,0 +1,45 @@
+{
+  "feature_columns": [
+    "vessel_capacity",
+    "bunker_fuel_price",
+    "weather_severity_rate",
+    "distance_nm",
+    "origin_port",
+    "destination_port"
+  ],
+  "numeric_features": [
+    "vessel_capacity",
+    "bunker_fuel_price",
+    "weather_severity_rate",
+    "distance_nm"
+  ],
+  "categorical_features": [
+    "origin_port",
+    "destination_port"
+  ],
+  "ports": [
+    "Shanghai",
+    "Singapore",
+    "Rotterdam",
+    "Ningbo-Zhoushan",
+    "Busan",
+    "Hong Kong",
+    "Jebel Ali",
+    "Antwerp",
+    "Los Angeles",
+    "Hamburg",
+    "New York",
+    "Santos",
+    "Mumbai (Nhava Sheva)",
+    "Colombo",
+    "Chittagong"
+  ],
+  "vessel_types": [
+    "Ultra Large Container Vessel",
+    "New Panamax Container",
+    "Crude Oil Tanker (VLCC)",
+    "Bulk Carrier (Panamax)",
+    "Handysize Bulk Carrier",
+    "LNG Carrier"
+  ]
+}
